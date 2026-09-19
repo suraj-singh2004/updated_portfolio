@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import surajPhoto from "@/assets/portrait/suraj.jpg";
 import { profileData } from "@/data/profile";
 import { Sparkles, Maximize2, X, MapPin, CheckCircle2 } from "lucide-react";
 
@@ -15,7 +14,7 @@ export const Portrait: React.FC<PortraitProps> = ({
   const [modalOpen, setModalOpen] = useState(false);
   const [loaded, setLoaded] = useState(false);
 
-  const imgSrc = surajPhoto || profileData.portraitUrl;
+ const imgSrc = profileData.portraitUrl || "/images/suraj.jpg";
 
   return (
     <>

@@ -1,6 +1,12 @@
 import React from "react";
 import { profileData } from "@/data/profile";
-import { Sparkles, GraduationCap, Award, BookOpen, CheckCircle } from "lucide-react";
+import {
+  Sparkles,
+  GraduationCap,
+  Award,
+  BookOpen,
+  CheckCircle,
+} from "lucide-react";
 
 export const Education: React.FC = () => {
   return (
@@ -12,11 +18,14 @@ export const Education: React.FC = () => {
             <Sparkles className="w-3.5 h-3.5" />
             <span>05 / ACADEMIC FOUNDATION</span>
           </div>
+
           <h2 className="text-3xl sm:text-4xl font-black tracking-tight text-gradient">
             Education &amp; Core Computer Science
           </h2>
+
           <p className="mt-4 text-fg-muted text-base sm:text-lg leading-relaxed">
-            Formal computer science rigor complemented by continuous hands-on software development.
+            Formal computer science rigor complemented by continuous hands-on
+            software development.
           </p>
         </div>
 
@@ -33,10 +42,12 @@ export const Education: React.FC = () => {
                   <div className="w-12 h-12 rounded-xl bg-surface border hairline flex items-center justify-center text-accent">
                     <GraduationCap className="w-6 h-6" />
                   </div>
+
                   <div>
                     <h3 className="text-xl font-bold text-fg tracking-tight">
                       {edu.degree}
                     </h3>
+
                     <div className="text-xs sm:text-sm font-semibold text-accent mt-0.5">
                       {edu.field}
                     </div>
@@ -47,16 +58,13 @@ export const Education: React.FC = () => {
                   <span className="text-xs font-mono px-3 py-1 rounded-full bg-surface border hairline text-fg-subtle">
                     {edu.period}
                   </span>
-                  {edu.score && (
-                    <span className="text-xs font-mono text-emerald-400 font-bold mt-1">
-                      CGPA: {edu.score}
-                    </span>
-                  )}
                 </div>
               </div>
 
+              {/* Institution */}
               <div className="text-xs sm:text-sm text-fg-muted font-mono mb-6">
-                Institution: <span className="text-fg">{edu.institution}</span>
+                Institution:{" "}
+                <span className="text-fg">{edu.institution}</span>
               </div>
 
               {/* Coursework */}
@@ -65,6 +73,7 @@ export const Education: React.FC = () => {
                   <BookOpen className="w-3.5 h-3.5 text-accent" />
                   <span>Key Coursework &amp; Competencies:</span>
                 </h4>
+
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                   {edu.coursework.map((course, i) => (
                     <div
@@ -81,24 +90,43 @@ export const Education: React.FC = () => {
           ))}
 
           {/* Quick Academic Highlights side card */}
-          <div className="lg:col-span-4 space-y-4" data-reveal style={{ ["--d" as any]: "150ms" }}>
+          <div
+            className="lg:col-span-4 space-y-4"
+            data-reveal
+            style={{ ["--d" as any]: "150ms" }}
+          >
             <div className="spotlight rounded-2xl border hairline bg-card p-6 shadow-xl">
               <div className="flex items-center gap-2.5 mb-3">
                 <Award className="w-5 h-5 text-accent" />
-                <h4 className="text-base font-bold text-fg">Academic Distinctions</h4>
+
+                <h4 className="text-base font-bold text-fg">
+                  Academic Highlights
+                </h4>
               </div>
+
               <ul className="space-y-3 text-xs sm:text-sm text-fg-muted leading-relaxed">
                 <li className="flex items-start gap-2">
                   <span className="text-accent font-bold">•</span>
-                  <span>Active member of University Developer Student Clubs and Technical Coding Society.</span>
+                  <span>
+                    Computer Science Engineering student with a focus on
+                    software development.
+                  </span>
                 </li>
+
                 <li className="flex items-start gap-2">
                   <span className="text-accent font-bold">•</span>
-                  <span>Consistent top percentile academic standing across core algorithms, systems, and mathematics.</span>
+                  <span>
+                    Currently developing skills in programming, web development,
+                    and modern technologies.
+                  </span>
                 </li>
+
                 <li className="flex items-start gap-2">
                   <span className="text-accent font-bold">•</span>
-                  <span>Participated in multiple inter-college 24h &amp; 36h software hackathons with top-tier submissions.</span>
+                  <span>
+                    Continuously learning through academic work and practical
+                    development experience.
+                  </span>
                 </li>
               </ul>
             </div>

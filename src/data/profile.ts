@@ -268,7 +268,7 @@ export const profileData: ProfileData = {
   ],
   journey: [
     {
-      year: "2024 – Present",
+      year: "2026 – Present",
       title: "Advanced Full-Stack Engineering & System Architecture",
       role: "Student & Software Developer",
       organization: "Computer Science & Engineering",
@@ -278,7 +278,7 @@ export const profileData: ProfileData = {
       type: "experience",
     },
     {
-      year: "2023 – 2024",
+      year: "2025 – 2026",
       title: "AI / Machine Learning & Intelligent Applications",
       role: "Undergraduate Researcher & Developer",
       organization: "Academic Projects & Self-Initiatives",
@@ -288,7 +288,7 @@ export const profileData: ProfileData = {
       type: "experience",
     },
     {
-      year: "2022 – 2023",
+      year: "2025 – 2026",
       title: "Data Structures, Algorithms & Competitive Programming",
       role: "Algorithmic Problem Solver",
       organization: "LeetCode & CodeChef",
@@ -298,7 +298,7 @@ export const profileData: ProfileData = {
       type: "achievement",
     },
     {
-      year: "2022 – 2023",
+      year: "2024 – 2025",
       title: "Computer Science & Programming Foundations",
       role: "Undergraduate Student",
       organization: "University Program",
