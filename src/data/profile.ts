@@ -298,7 +298,7 @@ export const profileData: ProfileData = {
       type: "achievement",
     },
     {
-      year: "2021 – 2022",
+      year: "2022 – 2023",
       title: "Computer Science & Programming Foundations",
       role: "Undergraduate Student",
       organization: "University Program",
@@ -313,8 +313,7 @@ export const profileData: ProfileData = {
       degree: "Bachelor of Technology (B.Tech)",
       field: "Computer Science and Engineering",
       institution: "College of Engineering",
-      period: "2022 – 2026",
-      score: "8.6 / 10 CGPA",
+      period: "2024 – 2028",
       coursework: [
         "Data Structures & Algorithms",
         "Object Oriented Programming (Java/C++)",

@@ -115,7 +115,7 @@ export const Portrait: React.FC<PortraitProps> = ({
           className="hidden sm:flex absolute -top-4 -left-3 md:-left-6 items-center gap-2 px-3 py-1.5 rounded-xl bg-card-2/95 border hairline shadow-xl backdrop-blur-md text-xs text-fg font-medium"
         >
           <CheckCircle2 className="w-3.5 h-3.5 text-accent-soft" />
-          <span className="text-fg-muted font-mono text-[11px]">CS Undergrad · '26</span>
+          <span className="text-fg-muted font-mono text-[11px]">CS Undergrad · '28</span>
         </div>
       </div>
 
